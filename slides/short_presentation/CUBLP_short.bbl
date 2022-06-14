@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Haberman2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a644c5e7e01a6a7d9d420eebc2fef90}{%
+           family={Haberman},
+           familyi={H\bibinitperiod},
+           given={Shelby\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f01e114d6ca58a0fcf9e8586350058cd}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Lili},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffb04874bec5ae131fa94f9f46c35c36}{%
+           family={Sinharay},
+           familyi={S\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80c541f1f8623706a3e369b29607e234}
+      \strng{fullhash}{d7e603d61be0ac96441d4807f7b89f22}
+      \strng{bibnamehash}{d7e603d61be0ac96441d4807f7b89f22}
+      \strng{authorbibnamehash}{d7e603d61be0ac96441d4807f7b89f22}
+      \strng{authornamehash}{80c541f1f8623706a3e369b29607e234}
+      \strng{authorfullhash}{d7e603d61be0ac96441d4807f7b89f22}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In many educational tests which involve constructed responses, a traditional test score is obtained by adding together item scores obtained through holistic scoring by trained human raters. For example, this practice was used until 2008 in the case of GRE<sup>{®}</sup>General Analytical Writing and until 2009 in the case of TOEFL<sup>{®}</sup> iBT Writing. With use of natural language processing, it is possible to obtain additional information concerning item responses from computer programs such as e-rater<sup>{®}</sup>. In addition, available information relevant to examinee performance may include scores on related tests. We suggest application of standard results from classical test theory to the available data to obtain best linear predictors of true traditional test scores. In performing such analysis, we require estimation of variances and covariances of measurement errors, a task which can be quite difficult in the case of tests with limited numbers of items and with multiple measurements per item. As a consequence, a new estimation method is suggested based on samples of examinees who have taken an assessment more than once. Such samples are typically not random samples of the general population of examinees, so that we apply statistical adjustment methods to obtain the needed estimated variances and covariances of measurement errors. To examine practical implications of the suggested methods of analysis, applications are made to GRE General Analytical Writing and TOEFL iBT Writing. Results obtained indicate that substantial improvements are possible both in terms of reliability of scoring and in terms of assessment reliability.}
+      \field{issn}{20448317}
+      \field{journaltitle}{British Journal of Mathematical and Statistical Psychology}
+      \field{number}{2}
+      \field{title}{{Prediction of true test scores from observed item scores and ancillary data}}
+      \field{volume}{68}
+      \field{year}{2015}
+      \field{pages}{363\bibrangedash 385}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1111/bmsp.12052
+      \endverb
+      \verb{file}
+      \verb :home/xiang/Downloads/document(1).pdf:pdf
+      \endverb
+      \keyw{Adjustment,Augmentation,Automated scoring,Classical test theory,Holistic scoring,Proportional reduction in mean square error,Reliability}
+    \endentry
+    \entry{Robinson1991}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c256ec7c536d09ab4a9f9cb6254c503a}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c256ec7c536d09ab4a9f9cb6254c503a}
+      \strng{fullhash}{c256ec7c536d09ab4a9f9cb6254c503a}
+      \strng{bibnamehash}{c256ec7c536d09ab4a9f9cb6254c503a}
+      \strng{authorbibnamehash}{c256ec7c536d09ab4a9f9cb6254c503a}
+      \strng{authornamehash}{c256ec7c536d09ab4a9f9cb6254c503a}
+      \strng{authorfullhash}{c256ec7c536d09ab4a9f9cb6254c503a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In animal breeding, Best Linear Unbiased Prediction, or BLUP, is a technique for estimating genetic merits. In general, it is a method of estimating random effects. It can be used to derive the Kalman filter, the method of Kriging used for ore reserve estimation, credibility theory used to work out insurance premiums, and Hoadley's quality measurement plan used to estimate a quality index. It can be used for removing noise from images and for small-area estimation. This paper presents the theory of BLUP, some examples of its application and its relevance to the foundations of statistics. Understanding of procedures for estimating random effects should help people to understand some complicated and controversial issues about fixed and random effects models and also help to bridge the apparent gulf between the Bayesian and Classical schools of thought. {©} 1991, Institute of Mathematical Statistics. All Rights Reserved.}
+      \field{issn}{08834237}
+      \field{journaltitle}{Statistical Science}
+      \field{number}{1}
+      \field{title}{{That BLUP is a good thing: The estimation of random effects}}
+      \field{volume}{6}
+      \field{year}{1991}
+      \field{pages}{15\bibrangedash 32}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1214/ss/1177011926
+      \endverb
+      \verb{file}
+      \verb :home/xiang/Downloads/2245695.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Yao2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f01e114d6ca58a0fcf9e8586350058cd}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Lili},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a644c5e7e01a6a7d9d420eebc2fef90}{%
+           family={Haberman},
+           familyi={H\bibinitperiod},
+           given={Shelby\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05fc4ed7a624c01477e4536c956c689b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f11f38677e4fdcde30772c01742b6c3f}
+      \strng{fullhash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \strng{bibnamehash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \strng{authorbibnamehash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \strng{authornamehash}{f11f38677e4fdcde30772c01742b6c3f}
+      \strng{authorfullhash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In best linear prediction (BLP), a true test score is predicted by observed item scores and by ancillary test data. If the use of BLP rather than a more direct estimate of a true score has disparate impact for different demographic groups, then a fairness issue arises. To improve population invariance but to preserve much of the efficiency of BLP, a modified approach, penalized best linear prediction, is proposed that weights both mean square error of prediction and a quadratic measure of subgroup biases. The proposed methodology is applied to three high-stakes writing assessments.}
+      \field{issn}{00333123}
+      \field{journaltitle}{Psychometrika}
+      \field{number}{1}
+      \field{title}{{Penalized Best Linear Prediction of True Test Scores}}
+      \field{volume}{84}
+      \field{year}{2019}
+      \field{pages}{186\bibrangedash 211}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s11336-018-9636-7
+      \endverb
+      \verb{file}
+      \verb :home/xiang/Downloads/document.pdf:pdf
+      \endverb
+      \keyw{PBLP,subgroup biases,true test score}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,99 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+    \includegraphics[scale=0.01]{bias_uneq_discrim_high.png}
+  \end{figure}
+  blah
+
+
+  \printbibliography
+  \appendix
+  \section{Constrained Minimization of the MSE}
+  \label{app:optim}
+  To find the optimal value for $\gamma$ we use a Lagrange multiplier
+  approach where we optimize
+  \[ \frac{1}{2} MSE - \delta (\mbf{\gamma}_1^\top \mbf{\lambda}-1 ) \]
+  The gradient of this function is
+  \[ - E\left [ (\mbf{W} - E[\mbf{W}] ) ( S -E[S] -
+      (\mbf{W} - E[\mbf{W}] )^\top \mbf{\gamma}_1) \right] - \delta
+    \mbf{\lambda} \]
+  Because $\mbf{W} = \mbf{\lambda} S + \beps_w $ and $\mbf{\lambda}^\top
+  \mbf{\gamma} = 1$ by constraint, this gradient becomes
+  \[ E \left [ (\bW - E[\bW]) \beps_w^\top \bgamma_1 \right ] - \delta
+    \blambda \]
+  \[ E \left [ (\blambda (S-E[S]) + \beps_w ) \beps_w^\top \bgamma_1 \right ] -
+  \delta
+    \blambda \]
+  Therefore, the solution satisfies
+  \begin{eqnarray*}
+    \mbf{\Sigma}_{\beps_w} \bgamma_1 &=& \delta \blambda \\
+    \bgamma_1 &=& \delta \mbf{\Sigma}^{-1}_{\beps_w} \blambda
+  \end{eqnarray*}
+  where $\delta$ is a constant to ensure the constraint is met.
+  Therefore the CUBLP coefficients are
+  \begin{equation}
+    \bgamma_{1} = \frac{\mbf{\Sigma}^{-1}_{\beps_w} \blambda}{
+      \blambda^\top \mbf{\Sigma}^{-1}_{\beps_w} \blambda}
+    \label{eq:blup}
+  \end{equation}
+  where $\mbf{\Sigma}_{\beps_w} = \Cov(\beps_w)$ is the covariance of
+  the error terms $\beps_w = \bW - \blambda S $.
+
+  \section{Parameter estimation}
+  \label{app:estimation}
+  Following the results in the previous section, the BLUP estimator is a function of the factor loadings $\blambda$. However, this loading vector is generally unknown and has to be estimated. Here we consider the single score case.
+  Let \[ \blambda = \left (\begin{array}{r} \blambda_{\bY} \\ \blambda_{\bX} \end{array} \right) \],
+  where $\blambda_{\bY} = (\lambda_{Y_1}, \lambda_{Y_2}, \dots, \lambda_{Y_K})'$
+  and $\blambda_{\bX} = (\lambda_{X_1}, \lambda_{X_2}, \dots, \lambda_{X_J})'$.
+  Assume all observed variables are standardized and $E(S) = \mu_S = 0$ and
+  $\sigma^2_{S} = 1$. It leads to
+  \begin{equation}
+  \mbf{\Sigma}_{\bW} = \blambda \blambda' + \mbf{\Sigma}_{\beps}.
+  \end{equation}
+  We further assume that the covariance of $\bY$ is fully explained by $S$. That is
+  \begin{equation}
+    \mbf{\Sigma}_{\bY} = \blambda_{\bY} \blambda_{\bY}' + \mbf{\Psi}_{\bY},
+  \end{equation}
+  where $\mbf{\Psi}_{\bY}$ is a diagonal matrix with residual variances of $\bY$
+  on the main diagonal. This is a common assumption for many popular measurement
+  models. Now, we impose some additional restrictions on the residual covariance
+  matrix $\mbf{\Sigma}_{\beps}$. $\bY$ is assumed to be uncorrelated with $\bX$
+  given S. Equivalently, $\Cov(\beps_{\bY}, \beps_{\bX}) = \mbf{0}$.
+
+  In many cases, it may be desirable or necessary to assume that $\lambda_{Y_j} = \lambda_{Y}$, $\forall j$. This equal discrimination assumption also simplifies the estimation of $\blambda$. Consider a quadratic loss function,
+  \begin{equation}
+    L(\blambda) = \sum_{k \neq k'} (\lambda_{Y}^2 - r_{Y_k Y_{k'}})^2 + \sum_k \sum_j (\lambda_Y \lambda_{X_j} - r_{Y_k X_j})^2.
+  \end{equation}
+  Taking the gradient to minimize the loss function,
+  \begin{equation}
+  \label{eq:loading_gradient_eqs}
+    \nabla L = \left(
+    \begin{array}{c} 4\lambda_Y \sum_{k \neq k'}(\lambda_{Y}^{2} - r_{Y_k Y_{k'}}) + 2K\lambda_Y\sum_j\lambda_{X_j}^2 - 2\sum_j \lambda_{X_j} \sum_k r_{Y_k X_j}\\
+    \vdots\\
+    2K\lambda_Y^2\lambda_{X_j} - 2\lambda_Y\sum_k r_{Y_k X_j}\\
+    \vdots
+    \end{array}\right) = \mbf{0}.
+  \end{equation}
+  Solving Equation \ref{eq:loading_gradient_eqs} leads to the unweighted least square estimator of the loadings,
+  \begin{equation}
+    \hat{\lambda_Y} = \sqrt{\frac{\sum_{k \neq k'} r_{Y_k Y_{k'}}}{K(K-1)}}
+  \end{equation}
+  and
+  \begin{equation}
+    \hat{\lambda_{X_j}} = \frac{\sum_k r_{Y_k X_j}}{K\hat{\lambda_Y}}.
+  \end{equation}
+
+  The solutions under unequal discriminations are
+  \begin{equation}
+    \hat{\lambda_{Y_k}} = \frac{\sum_{k' \neq k} \lambda_{Y_{k'}} r_{Y_{k}Y_{k'}} +
+    \sum_j \lambda_{X_j} r_{Y_k, X_j}}{\sum_{k' \neq k} \lambda_{Y_{k'}}^2 + \sum_j
+    \lambda_{X_j}^2},
+  \end{equation}
+  and
+  \begin{equation}
+    \hat{\lambda_{X_j}} = \frac{\sum_k \lambda_{Y_k} r_{Y_k X_j}}{\sum_k \lambda_
+    {Y_k}^2}
+  \end{equation}
+
+
+  \end{document}

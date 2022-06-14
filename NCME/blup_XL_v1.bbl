@@ -1,0 +1,422 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Attali2006}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c49cb0b99c7dc4c38de1d21a6ede17c9}{%
+           family={Attalí},
+           familyi={A\bibinitperiod},
+           given={Yigal},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa0c93e61fde125a80103a8339561953}{%
+           family={Bursteín},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{25ad82e9d35e959f0565625464144304}
+      \strng{fullhash}{25ad82e9d35e959f0565625464144304}
+      \strng{bibnamehash}{25ad82e9d35e959f0565625464144304}
+      \strng{authorbibnamehash}{25ad82e9d35e959f0565625464144304}
+      \strng{authornamehash}{25ad82e9d35e959f0565625464144304}
+      \strng{authorfullhash}{25ad82e9d35e959f0565625464144304}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{E-rater{®} has been used by the Educational Testing Service for automated essay scoring since 1999. This paper describes a new version of e-rater (V.2) that is different from other automated essay scoring systems in several important respects. The main innovations of e-rater V.2 are a small, intuitive, and meaningful set of features used for scoring; a single scoring model and standards can be used across all prompts of an assessment; modeling procedures that are transparent and flexible, and can be based entirely on expert judgment. The paper describes this new system and presents evidence on the validity and reliability of its scores. Copyright {©} 2006 by the Journal of Technology, Learning, and Assessment.}
+      \field{booktitle}{Journal of Technology, Learning, and Assessment}
+      \field{issn}{15402525}
+      \field{number}{3}
+      \field{title}{{Automated essay scoring with e-rater{®} V.2}}
+      \field{volume}{4}
+      \field{year}{2006}
+      \field{pages}{1\bibrangedash 29}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1002/j.2333-8504.2004.tb01972.x
+      \endverb
+    \endentry
+    \entry{Burstein2004}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f974925c5c6cca1d67fd604cc9fc9c79}{%
+           family={Burstein},
+           familyi={B\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc6c224e437e2bd9912a8f3df0c78341}{%
+           family={Chodorow},
+           familyi={C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4809f9384db164c4bec54eaa8c227a87}{%
+           family={Leacock},
+           familyi={L\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{fullhash}{6ebe192b241a553fbdc9ea6465eb2f8c}
+      \strng{bibnamehash}{6ebe192b241a553fbdc9ea6465eb2f8c}
+      \strng{authorbibnamehash}{6ebe192b241a553fbdc9ea6465eb2f8c}
+      \strng{authornamehash}{0f9989a68b9a4dd59d368e46c7ff0bda}
+      \strng{authorfullhash}{6ebe192b241a553fbdc9ea6465eb2f8c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article, we describe a deployed educational technology application: the Criterion Online Essay Evaluation Service, a web-based system that provides automated scoring and evaluation of student essays. Criterion has two complementary applications: (1) Critique Writing Analysis Tools, a suite of programs that detect errors in grammar, usage, and mechanics, that identify discourse elements in the essay, and that recognize potentially undesirable elements of style, and (2) e-rater version 2.0, an automated essay scoring system. Critique and e-rater provide students with feedback that is specific to their writing in order to help them improve their writing skills and is intended to be used under the instruction of a classroom teacher. Both applications employ natural language processing and machine learning techniques. All of these capabilities outperform baseline algorithms, and some of the tools agree with human judges in their evaluations as often as two judges agree with each other. {©} 2004, American Association for Artificial Intelligence. All rights reserved.}
+      \field{issn}{07384602}
+      \field{journaltitle}{AI Magazine}
+      \field{number}{3}
+      \field{title}{{Automated essay evaluation: The criterion online writing service}}
+      \field{volume}{25}
+      \field{year}{2004}
+      \field{pages}{27\bibrangedash 36}
+      \range{pages}{10}
+    \endentry
+    \entry{Guo2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=89c8c1c2055d32374769b3ac22e18c06}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Hongwen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05fc4ed7a624c01477e4536c956c689b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65f3fac33b29d0aadcdb39a0a6f80fd0}{%
+           family={Deane},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=352ed7edd9e725a2928bb9c918493ec6}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Randy\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE PublicationsSage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{55114f26b56ded1ca21fc431e1173f23}
+      \strng{fullhash}{4eb9e525a39918b287decd1348fd3231}
+      \strng{bibnamehash}{4eb9e525a39918b287decd1348fd3231}
+      \strng{authorbibnamehash}{4eb9e525a39918b287decd1348fd3231}
+      \strng{authornamehash}{55114f26b56ded1ca21fc431e1173f23}
+      \strng{authorfullhash}{4eb9e525a39918b287decd1348fd3231}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We used an unobtrusive approach, keystroke logging, to examine students' cognitive states during essay writing. Based on data contained in the logs, we classified writing process data into three states: text production, long pause, and editing. We used semi-Markov processes to model the sequences of writing states and compared the state transition time and probability for demographic subgroups that were matched on writing proficiency. Results suggested that the subgroups employed different processes in essay writing.}
+      \field{issn}{10769986}
+      \field{journaltitle}{Journal of Educational and Behavioral Statistics}
+      \field{month}{6}
+      \field{number}{5}
+      \field{title}{{Writing Process Differences in Subgroups Reflected in Keystroke Logs}}
+      \field{volume}{44}
+      \field{year}{2019}
+      \field{pages}{571\bibrangedash 596}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.3102/1076998619856590
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.3102/1076998619856590
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.3102/1076998619856590
+      \endverb
+      \keyw{process data,semi-Markov model,writing proficiency}
+    \endentry
+    \entry{Haberman2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a644c5e7e01a6a7d9d420eebc2fef90}{%
+           family={Haberman},
+           familyi={H\bibinitperiod},
+           given={Shelby\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f01e114d6ca58a0fcf9e8586350058cd}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Lili},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffb04874bec5ae131fa94f9f46c35c36}{%
+           family={Sinharay},
+           familyi={S\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80c541f1f8623706a3e369b29607e234}
+      \strng{fullhash}{d7e603d61be0ac96441d4807f7b89f22}
+      \strng{bibnamehash}{d7e603d61be0ac96441d4807f7b89f22}
+      \strng{authorbibnamehash}{d7e603d61be0ac96441d4807f7b89f22}
+      \strng{authornamehash}{80c541f1f8623706a3e369b29607e234}
+      \strng{authorfullhash}{d7e603d61be0ac96441d4807f7b89f22}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In many educational tests which involve constructed responses, a traditional test score is obtained by adding together item scores obtained through holistic scoring by trained human raters. For example, this practice was used until 2008 in the case of GRE<sup>{®}</sup>General Analytical Writing and until 2009 in the case of TOEFL<sup>{®}</sup> iBT Writing. With use of natural language processing, it is possible to obtain additional information concerning item responses from computer programs such as e-rater<sup>{®}</sup>. In addition, available information relevant to examinee performance may include scores on related tests. We suggest application of standard results from classical test theory to the available data to obtain best linear predictors of true traditional test scores. In performing such analysis, we require estimation of variances and covariances of measurement errors, a task which can be quite difficult in the case of tests with limited numbers of items and with multiple measurements per item. As a consequence, a new estimation method is suggested based on samples of examinees who have taken an assessment more than once. Such samples are typically not random samples of the general population of examinees, so that we apply statistical adjustment methods to obtain the needed estimated variances and covariances of measurement errors. To examine practical implications of the suggested methods of analysis, applications are made to GRE General Analytical Writing and TOEFL iBT Writing. Results obtained indicate that substantial improvements are possible both in terms of reliability of scoring and in terms of assessment reliability.}
+      \field{issn}{20448317}
+      \field{journaltitle}{British Journal of Mathematical and Statistical Psychology}
+      \field{number}{2}
+      \field{title}{{Prediction of true test scores from observed item scores and ancillary data}}
+      \field{volume}{68}
+      \field{year}{2015}
+      \field{pages}{363\bibrangedash 385}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1111/bmsp.12052
+      \endverb
+      \verb{file}
+      \verb :home/xiang/Downloads/document(1).pdf:pdf
+      \endverb
+      \keyw{Adjustment,Augmentation,Automated scoring,Classical test theory,Holistic scoring,Proportional reduction in mean square error,Reliability}
+    \endentry
+    \entry{Sinharay2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ffb04874bec5ae131fa94f9f46c35c36}{%
+           family={Sinharay},
+           familyi={S\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05fc4ed7a624c01477e4536c956c689b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65f3fac33b29d0aadcdb39a0a6f80fd0}{%
+           family={Deane},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8751bea75852222e483f149f4606219}
+      \strng{fullhash}{2f0584678b236a4d4ab2dbd52c6ffdc4}
+      \strng{bibnamehash}{2f0584678b236a4d4ab2dbd52c6ffdc4}
+      \strng{authorbibnamehash}{2f0584678b236a4d4ab2dbd52c6ffdc4}
+      \strng{authornamehash}{a8751bea75852222e483f149f4606219}
+      \strng{authorfullhash}{2f0584678b236a4d4ab2dbd52c6ffdc4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Analysis of keystroke logging data is of increasing interest, as evident from a substantial amount of recent research on the topic. Some of the research on keystroke logging data has focused on the prediction of essay scores from keystroke logging features, but linear regression is the only prediction method that has been used in this research. Data mining methods such as boosting and random forests have been found to improve over traditional prediction methods such as linear regression in various scientific fields, but have not been used in the prediction of essay scores from keystroke logging features. This article first provides a review of boosting, which is a popular data mining method. The article then applies boosting to predict essay scores from a large number of keystroke logging features and other predictor variables from two real data sets.}
+      \field{issn}{08957347}
+      \field{journaltitle}{Applied Measurement in Education}
+      \field{number}{2}
+      \field{title}{{Prediction of Essay Scores From Writing Process and Product Features Using Data Mining Methods}}
+      \field{volume}{32}
+      \field{year}{2019}
+      \field{pages}{116\bibrangedash 137}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/08957347.2019.1577245
+      \endverb
+      \verb{file}
+      \verb :home/xiang/Downloads/document(3).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Yao2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f01e114d6ca58a0fcf9e8586350058cd}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Lili},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a644c5e7e01a6a7d9d420eebc2fef90}{%
+           family={Haberman},
+           familyi={H\bibinitperiod},
+           given={Shelby\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05fc4ed7a624c01477e4536c956c689b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f11f38677e4fdcde30772c01742b6c3f}
+      \strng{fullhash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \strng{bibnamehash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \strng{authorbibnamehash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \strng{authornamehash}{f11f38677e4fdcde30772c01742b6c3f}
+      \strng{authorfullhash}{21bc58e0b3eb13fbc7a6edf0b395d4f8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In best linear prediction (BLP), a true test score is predicted by observed item scores and by ancillary test data. If the use of BLP rather than a more direct estimate of a true score has disparate impact for different demographic groups, then a fairness issue arises. To improve population invariance but to preserve much of the efficiency of BLP, a modified approach, penalized best linear prediction, is proposed that weights both mean square error of prediction and a quadratic measure of subgroup biases. The proposed methodology is applied to three high-stakes writing assessments.}
+      \field{issn}{00333123}
+      \field{journaltitle}{Psychometrika}
+      \field{number}{1}
+      \field{title}{{Penalized Best Linear Prediction of True Test Scores}}
+      \field{volume}{84}
+      \field{year}{2019}
+      \field{pages}{186\bibrangedash 211}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s11336-018-9636-7
+      \endverb
+      \verb{file}
+      \verb :home/xiang/Downloads/document.pdf:pdf
+      \endverb
+      \keyw{PBLP,subgroup biases,true test score}
+    \endentry
+    \entry{Zhang2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=05fc4ed7a624c01477e4536c956c689b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=352ed7edd9e725a2928bb9c918493ec6}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Randy\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65f3fac33b29d0aadcdb39a0a6f80fd0}{%
+           family={Deane},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2f9c5308cea74d93558b1ea5b1965a8}{%
+           family={Rijn},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{54269421605e424102d3edaf6829ee94}
+      \strng{fullhash}{d05d967f72de12f7a05ab04a5cbcf24c}
+      \strng{bibnamehash}{d05d967f72de12f7a05ab04a5cbcf24c}
+      \strng{authorbibnamehash}{d05d967f72de12f7a05ab04a5cbcf24c}
+      \strng{authornamehash}{54269421605e424102d3edaf6829ee94}
+      \strng{authorfullhash}{d05d967f72de12f7a05ab04a5cbcf24c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study compared gender groups on the processes used in writing essays in an online assessment. Middle-school students from four grades responded to essays in two persuasive subgenres, argumentation and policy recommendation. Writing processes were inferred from four indicators extracted from students' keystroke logs. In comparison to males, on average females not only obtained higher essay scores but differed from males in their writing processes. Females entered text more fluently, engaged in more macro and local editing, and showed less need to pause at locations associated with planning (e.g., between bursts of text, at sentence boundaries). That these differences were detected after controlling for essay scores suggests that they cannot be attributed solely to disparities in group writing skill.}
+      \field{issn}{17453992}
+      \field{journaltitle}{Educational Measurement: Issues and Practice}
+      \field{number}{2}
+      \field{title}{{Are There Gender Differences in How Students Write Their Essays? An Analysis of Writing Processes}}
+      \field{volume}{38}
+      \field{year}{2019}
+      \field{pages}{14\bibrangedash 26}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/emip.12249
+      \endverb
+      \keyw{gender differences,problem-solving processes,scenario-based assessment,writing}
+    \endentry
+    \entry{Zhang2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=05fc4ed7a624c01477e4536c956c689b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65f3fac33b29d0aadcdb39a0a6f80fd0}{%
+           family={Deane},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7452dc68b2adc9a582f54136b896f49}
+      \strng{fullhash}{b7452dc68b2adc9a582f54136b896f49}
+      \strng{bibnamehash}{b7452dc68b2adc9a582f54136b896f49}
+      \strng{authorbibnamehash}{b7452dc68b2adc9a582f54136b896f49}
+      \strng{authornamehash}{b7452dc68b2adc9a582f54136b896f49}
+      \strng{authorfullhash}{b7452dc68b2adc9a582f54136b896f49}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In educational measurement contexts, essays have been evaluated and formative feedback has been given based on the end product. In this study, we used a large sample collected from middle school students in the United States to investigate the factor structure of the writing process features gathered from keystroke logs and the association of that latent structure with the quality of the final product (i.e., the essay text). The extent to which those process factors had incremental value over product features was also examined. We extracted 29 process features using the keystroke logging engine developed at Educational Testing Service (ETS). We identified 4 factors that represent the extent of writing fluency, local word-level editing, phrasal/chunk-level editing, and planning and deliberation during writing. We found that 2 of the 4 factors—writing fluency, and planning and deliberation—significantly related to the quality of the final text, whereas the 4 factors altogether accounted for limited variance in human scores. In 1 of the 2 samples studied, the keystroke-logging fluency factor added incrementally, but only marginally, to the prediction of human ratings of text-production skills beyond product features. The limited power of the writing process features for predicting human scores and the lack of clear additional predictive value over product features are not surprising given that the human raters have no knowledge of the writing process leading to the final text and that the product features measure the basic text quality specified in the human scoring rubric. Study limitations and recommendation for future research are also provided.}
+      \field{journaltitle}{ETS Research Report Series}
+      \field{number}{2}
+      \field{title}{{Process Features in Writing: Internal Structure and Incremental Value Over Product Features}}
+      \field{volume}{2015}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/ets2.12075
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
